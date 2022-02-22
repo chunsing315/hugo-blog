@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Gallerieboii Mind </title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Posts on Gallerieboii Mind </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Feb 2022 18:50:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Push to Github</title>
+      <link>https://example.org/posts/push-to-github/</link>
+      <pubDate>Tue, 22 Feb 2022 18:50:12 +0800</pubDate>
+      
+      <guid>https://example.org/posts/push-to-github/</guid>
+      <description>There is some problem when I try to push the project to git hub. I followed the Video &amp;lsquo;Understanding the Jamstack: How to build a blog with Hugo, Netlify CMS and Zapier, by How to Code on Youtube.
+I created a Github account. Added a repository called &amp;ldquo;hugo-site&amp;rdquo;. Then, there is a series of command, which I don&amp;rsquo;t know the function.
+I shall probably look at the hugo documentation on Deploying on Github.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/posts/my-first-post/</link>
+      <pubDate>Sat, 19 Feb 2022 15:54:18 +0800</pubDate>
+      
+      <guid>https://example.org/posts/my-first-post/</guid>
+      <description>Downloaded Hugo, a static website generator, to update my learning, woodworking and others. Mainly in the form of blog posts. Want to get things out fast. Letting people see fast.
+So basically, there is no log in system. No users. No Database. I guess the more complicated stuffs will go to my wiki page. https://wiki.gallerieboii.sbs
+Anyways, I don&amp;rsquo;t want to be an internet peasant anymore. I guess I&amp;rsquo;ll have to update this blog from time to time.</description>
+    </item>
+    
+  </channel>
+</rss>

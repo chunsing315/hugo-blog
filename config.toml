@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "/"
 title = "Gallerieboii Mind "
 theme = "creative"
 languageCode = "en-us"
@@ -42,7 +42,7 @@ googleAnalytics = ""
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
+  name = "Portfolio"
   url = "portfolio/"
   home = true
 
@@ -50,8 +50,12 @@ googleAnalytics = ""
   name = "About"
   url = "about/"
 
+ [[params.navlinks]]
+ name = "Blog"
+ url = "posts/"
+
   [[params.navlinks]]
-  name = "Get in touch"
+  name = "Contact"
   url = "contact/"
 
   [params.social]
