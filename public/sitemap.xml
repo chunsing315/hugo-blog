@@ -54,7 +54,22 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2022-02-22T18:50:12+08:00</lastmod>
+    <lastmod>2022-02-24T02:35:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/git-push/</loc>
+    <lastmod>2022-02-24T02:35:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2022-02-24T02:35:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2022-02-22T19:05:33+05:30</lastmod>
   </url>
   
   <url>
@@ -69,11 +84,6 @@
   
   <url>
     <loc>/tags/netlify/</loc>
-    <lastmod>2022-02-22T18:50:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
     <lastmod>2022-02-22T18:50:12+08:00</lastmod>
   </url>
   
@@ -95,6 +105,11 @@
   <url>
     <loc>/contact/</loc>
     <lastmod>2016-11-06T13:00:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/_indexno/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
   <url>
