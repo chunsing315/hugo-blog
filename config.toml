@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Gallerieboii Mind "
+title = "Wong Chun Sing "
 theme = "creative"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -14,8 +14,7 @@ googleAnalytics = "G-KC2HQD94PF"
   description = "This is a blog of Wong Chun Sing, a wood artist/ gallerist.  The posts will revolve around Hong Kong art, woodworking, gallery management, open-source, minimalism and site-specific art."
   copyright = "&copy;2021 Wong Chun Sing"
   sidebarAbout = [
-    "I am a gallerist/wood artist with 5 years of experience.",
-    "Originally from and currently based in Hong Kong."
+    "Gallerist/installation artist, active since 2017. Currently based in Hong Kong.  You may find all projects in this site"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a

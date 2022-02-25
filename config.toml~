@@ -5,7 +5,7 @@ languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "gallerieboii"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "G-KC2HQD94PF"
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
@@ -42,18 +42,18 @@ googleAnalytics = ""
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Portfolio"
+  name = "Art"
   url = "portfolio/"
   home = true
+
+[[params.navlinks]]
+ name = "Blog"
+ url = "posts/"
 
   [[params.navlinks]]
   name = "About"
   url = "about/"
 
-
- [[params.navlinks]]
- name = "Blog"
- url = "posts/"
 
   [[params.navlinks]]
   name = "Contact"
