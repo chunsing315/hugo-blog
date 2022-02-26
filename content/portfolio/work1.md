@@ -4,7 +4,7 @@ draft = false
 image = "img/portfolio/chiron/Chiron.png"
 date = "2021-11-05T18:25:22+05:30"
 title = "Chiron, 2021"
-tag = ["wood","peddle machine"]
+tag = ["wood","peddle machine","chiron","2021"]
 weight = 0
 +++
 
