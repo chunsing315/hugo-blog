@@ -13,8 +13,9 @@ googleAnalytics = "G-KC2HQD94PF"
   style = "green"
   description = "This is a blog of Wong Chun Sing, a wood artist/ gallerist.  The posts will revolve around Hong Kong art, woodworking, gallery management, open-source, minimalism and site-specific art."
   copyright = "&copy;2021 Wong Chun Sing"
+  img = "/img/profile2022.jpg"
   sidebarAbout = [
-    "Gallerist/installation artist, active since 2017. Currently based in Hong Kong.  You may find all projects in this site"
+    "","Gallerist/installation artist, active since 2017. Currently based in Hong Kong.  You may find all projects in this site"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -50,13 +51,12 @@ googleAnalytics = "G-KC2HQD94PF"
  url = "posts/"
 
   [[params.navlinks]]
-  name = "About"
-  url = "about/"
-
-
-  [[params.navlinks]]
   name = "Contact"
   url = "contact/"
+
+  [[params.navlinks]]
+  name = "Description"
+  url = "about/"
 
   [params.social]
   facebook      = "https://www.facebook.com/chunsing315"
