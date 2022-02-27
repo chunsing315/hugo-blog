@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Art on Wong Chun Sing </title>
+    <link>/tags/art/</link>
+    <description>Recent content in Art on Wong Chun Sing </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Feb 2022 18:30:17 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chiron Wiki</title>
+      <link>/posts/chiron-wiki/</link>
+      <pubDate>Sat, 26 Feb 2022 18:30:17 +0800</pubDate>
+      
+      <guid>/posts/chiron-wiki/</guid>
+      <description>Uploaded the documentation to my wiki. https://wiki.gallerieboii.sbs/ . Thanks to the requests of Y park and pointsman, The materials were ready a long time ago.
+About the entire sculpture camp project, I am very grateful for the experience.
+First of all, I had tremendous support from the pointsman team.</description>
+    </item>
+    
+  </channel>
+</rss>

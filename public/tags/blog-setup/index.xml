@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog-setup on Wong Chun Sing </title>
+    <link>/tags/blog-setup/</link>
+    <description>Recent content in blog-setup on Wong Chun Sing </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Feb 2022 18:02:17 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/blog-setup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing blog post upload from Netlify CMS</title>
+      <link>/posts/2022-02-26-testing-blog-post-upload-from-netlify-cms/</link>
+      <pubDate>Sat, 26 Feb 2022 18:02:17 +0000</pubDate>
+      
+      <guid>/posts/2022-02-26-testing-blog-post-upload-from-netlify-cms/</guid>
+      <description>Implementing Netlify CMS is as easy as adding two files, i.e. config.yaml and index.html to the /admin folder in the /static folder. However, some of my posts where not properly displayed and I do not know if this post will go to the correct place, i.e. /content/posts or not. I guess we will find out in the next post.
+Problems now:
+  Feature image is required
+  weight is required.</description>
+    </item>
+    
+  </channel>
+</rss>
