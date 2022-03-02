@@ -1,6 +1,11 @@
 baseurl = "/"
 title = "Wong Chun Sing "
 theme = "creative"
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "gallerieboii"

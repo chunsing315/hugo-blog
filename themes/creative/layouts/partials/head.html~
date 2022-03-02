@@ -31,5 +31,4 @@
 {{ end }}
 {{ template "_internal/google_analytics_async.html" . }}
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-/*Google Search Console*>
-<meta name="google-site-verification" content="wkEOCg_pEHQTJ3PGawntlSp2KqEu6qqcddNa8tp1vvU" />
+

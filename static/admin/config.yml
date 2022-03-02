@@ -16,8 +16,6 @@ collections:
      # - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "image", default: ""}
-      - {label: "weight", name: "weight", widget: "number",default: "10"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Tags",  name: "tags", widget: "list", default: ["news-update"]}

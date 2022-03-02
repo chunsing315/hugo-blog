@@ -6,6 +6,7 @@ date = "2021-11-05T18:25:22+05:30"
 title = "Chiron, 2021"
 tag = ["wood","peddle machine","chiron","2021"]
 weight = 0
+Description = "commissioned by Hong Kong Environmental Protection Department"
 +++
 
 ![chiron](/img/portfolio/chiron/Chiron.png)
