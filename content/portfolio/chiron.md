@@ -12,13 +12,10 @@ Description = "commissioned by Hong Kong Environmental Protection Department"
 ![chiron](/img/portfolio/chiron/Chiron.png)
 
 
-#### *Chiron*
+*Chiron*  /
+wood, cast iron, stainless steel, nylon, Chinese Ink / 2021
 
-Wood, cast iron, stainless steel, nylon, Chinese Ink
-
-2021
-
-collection of Y Park, Hong Kong Environmental Protection Department
+Commissioned by Y Park, Hong Kong Environmental Protection Department
 
 ---
 [Documentation Wiki](https://wiki.gallerieboii.sbs/index.php/Chiron_2021)

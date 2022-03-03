@@ -4,8 +4,39 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>{{ .Title }}</h1>
+        <style>
+        #postheader {
+            padding: 40px 120px;
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            font-weight: thin;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            transition: 2s;
+            }
+        </style>
+
+         <div id="postheader">{{ .Title }}</div>
+
+
+
          {{ .Content }}
+
+         <script>
+         // When the user scrolls down 50px from the top of the document, resize the header's font size
+         window.onscroll = function() {scrollFunction()};
+
+         function scrollFunction() {
+           if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+             document.getElementById("postheader").style.fontSize = "18px";
+           } else {
+             document.getElementById("postheader").style.fontSize = "25px";
+             document.getElementById("postheader").style.textAlign = "center";
+           }
+         }
+         </script>
          {{ template "_internal/disqus.html" . }}
       </div>
     </div>
