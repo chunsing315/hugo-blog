@@ -14,7 +14,7 @@ There are some challenges on JK's collaborations with her colleagues because the
 
 A direct message follow up is very likely to generate engagement.  In my experience, email marketing to boomer is a killing marteting tool, it's like an attractive woman in the club, everyone wants to talk to her.  First of all, the brand is someone you like. Secondly, it is updating you in a personal manner.  I find it very useful.  Even CEO replies to short personal DMs like that.
 
-From the research [here]('https://www.netsuite.com/portal/resource/articles/crm/customer-retention.shtml'), there are five ideas for customer retention.
+From the research [here](https://www.netsuite.com/portal/resource/articles/crm/customer-retention.shtml), there are five ideas for customer retention.
 1. Engage with Customers (not just replying everything, find out the effective channels)
 2. Reduce friction in the purchase process (reduce page load time, simplify checkout procedure)
 3. improve customer support (live chat, dedicated telephone, email, social media, FAQ; In my opinion, a very large portion of the customer need some sort of support in the art gallery sector)
