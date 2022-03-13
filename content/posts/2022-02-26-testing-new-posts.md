@@ -2,7 +2,6 @@
 title: What I don't like about this theme
 date: 2022-02-26T18:23:50.747Z
 image: /img/uploads/web_dev.png
-weight:0 
 draft: false
 tags:
   - web-dev
