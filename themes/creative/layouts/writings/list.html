@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+<div class="col-xs-12 col-sm-8 col-md-9 content-column">
+  {{ partial "mobile_nav_toggle.html" . }}
+ </div>
+
+
+<div class="col-xs-12 col-sm-8 col-md-9 content-column">
+  <div class="container-fluid" id="creative" >
+    
+    <!-- All titles in button form 
+      {{ range .Pages }}
+      <li style="list-style-type: none;">
+        <a class="btn btn-ghost" href="{{ .Permalink }}" role="button">{{ .Title }}</a>
+      </li>
+      {{end}} -->
+    
+      
+      <h2>
+        <a href="/tags/art">🎨 Art related posts</a>  <br>
+        
+        
+        <a href="/tags/gallery">👨‍💼 Gallery related posts</a> <br>
+        <a href="/tags/craft">👨‍🔧 Craft related posts</a> <br>
+        <a href="/tags/tech">👨‍💻 Tech related posts</a> <br>
+        
+      </h2>
+      
+      <h2>
+        #️⃣
+        {{ range .Site.Taxonomies.tags }}
+        <a id="allTags" class="btn btn-ghost" href="{{ .Page.Permalink }}" role="button">{{ .Page.Title }} ({{ .Count }})</a> 
+        {{ end }}
+      </h2> 
+      
+      <!-- <h2>
+        The most popular tags
+      </h2>
+      <ul class="most-popular-tags">
+        {{ $t := .Site.GetPage "/tags" }}
+        {{ range first 2 $t.Data.Terms.ByCount }}
+        <a href="{{ .Page.Permalink}}">{{ .Page.Title }}<br></a>
+        {{ end }}
+      </ul> -->
+    
+      
+    </div>  
+  </div>
+
+
+{{ end }}

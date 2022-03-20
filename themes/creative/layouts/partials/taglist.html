@@ -1,0 +1,25 @@
+{{ partial "mobile_nav_toggle.html" . }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column">
+  <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+    <h1>
+    <a href="/tags" style="text-decoration: none;">#️⃣
+    </a>
+     {{ .Title}} </h1>
+  {{ range .Data.Pages }}
+      <div class="list-group">
+        <a href="{{ .Permalink }}" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between" style="position:relative;">
+            <h5 class="mb-1">{{ .Title }}</h5>
+            <!-- <small class="text-muted">{{ .Date  | time.Format "Jan 2, 2006" }}</small> -->
+            <small class="text-muted" style="position:absolute; display: inline; right:0; top:0;">{{ .Date  | time.Format "2 Jan 06" }}</small>
+          </div>
+          <!-- <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> -->
+          <!-- <small class="text-muted">{{ if .Description }}
+            {{ .Description }}
+          {{ else }}
+            {{ .Summary }}
+          {{ end }}</small> -->
+        </a>
+      </div>
+    {{ end }}
+  </div>

@@ -63,9 +63,9 @@ googleAnalytics = "G-KC2HQD94PF"
   name = "Description"
   url = "about/"
 
-  # [[params.navlinks]]
-  # name = "writings"
-  # url = "writings/"
+  [[params.navlinks]]
+  name = "writings"
+  url = "writings/"
 
 
 

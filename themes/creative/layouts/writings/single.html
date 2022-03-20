@@ -1,0 +1,40 @@
+{{ define "main" }}
+<style>
+  body {
+    color:#6d7b3f;
+  };
+  p {
+    color:#242620;
+  }
+</style>
+
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-11 col-xs-offset-1 justify-content-center">
+      <div class="content-column-content">
+        <h1>{{ .Title }} </h1>
+        
+        <a href="/tags" style="text-decoration: none;">
+          <h2>#️⃣
+          </a>
+        
+        {{ range (.GetTerms "tags") }}
+        <a class="btn btn-ghost" href="{{ .Permalink }}" role="button">{{ .LinkTitle }}</a>
+        {{ end }}<br>
+          
+        </h2>
+        <p style="font-style: italic;color:#3e3a3a;">{{ .Date | time.Format "02 Jan 2006 03:04PM"}}</p> 
+        <body>
+          <p>{{ .Content }} </p>
+        </body>
+
+         {{ template "_internal/disqus.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{{ end }}
