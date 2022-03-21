@@ -5,6 +5,7 @@ theme = "creative"
   tag = "tags"
   category = "categories"
   author = "authors"
+  location = "locations"
   
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -55,23 +56,26 @@ googleAnalytics = "G-KC2HQD94PF"
  name = "Blog"
  url = "posts/"
 
+#  [[params.navlinks]]
+#  name = "Contact"
+#  url = "contact/"
+
+
   [[params.navlinks]]
-  name = "Contact"
-  url = "contact/"
+  name = "GB's digest"
+  url = "artnews/"
+  
 
   [[params.navlinks]]
   name = "About Sing"
   url = "about/"
 
-  [[params.navlinks]]
-  name = "Artworld digested"
-  url = "artnews/"
-
-
   # [[params.navlinks]]
   # name = "writings"
   # url = "writings/"
 
+  [permalinks]
+  artnews = '/:year/:month/:title/'
 
 
   [params.social]

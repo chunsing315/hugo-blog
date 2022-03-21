@@ -6,12 +6,12 @@
       <div class="content-column-content">
         <style>
         #postheader {
-            padding: 40px 120px;
+            /* padding: 40px 120px; */
             color: black;
-            text-align: center;
+            text-align: left;
             font-size: 30px;
             font-weight: thin;
-            position: fixed;
+            /* position: fixed; */
             top: 0;
             width: 100%;
             transition: 2s;
@@ -24,7 +24,7 @@
 
          {{ .Content }}
 
-         <script>
+         <!-- <script>
          // When the user scrolls down 50px from the top of the document, resize the header's font size
          window.onscroll = function() {scrollFunction()};
 
@@ -36,7 +36,7 @@
              document.getElementById("postheader").style.textAlign = "center";
            }
          }
-         </script>
+         </script> -->
          {{ template "_internal/disqus.html" . }}
       </div>
     </div>

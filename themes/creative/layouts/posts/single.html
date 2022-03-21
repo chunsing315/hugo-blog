@@ -6,10 +6,19 @@
       <div class="content-column-content">
       
          <h1>{{ .Title }}
-         <p style="font-size:40%;"> {{ .Date | time.Format "02 Jan 2006 03:04PM"}}  
+         <p style="font-size:50%;"> {{ .Date | time.Format "02 Jan 2006 03:04PM"}}  
         
          </p>
          </h1>
+
+         <a href="/tags" style="text-decoration: none;">
+          <h2>#️⃣
+         </a>
+        
+        {{ range (.GetTerms "tags") }}
+        <a class="btn btn-ghost" href="{{ .Permalink }}" role="button">{{ .LinkTitle }}</a>
+        {{ end }}<br>
+        </h2>
 
         {{ .Content }}
 

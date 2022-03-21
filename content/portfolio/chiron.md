@@ -17,6 +17,7 @@ wood, cast iron, stainless steel, nylon, Chinese Ink / 2021
 
 Commissioned by Y Park, Hong Kong Environmental Protection Department
 
+{{< gallery dir="/img/portfolio/chiron/pointsman" />}}
 ---
 [Documentation Wiki](https://wiki.gallerieboii.sbs/index.php/Chiron_2021)
 
