@@ -60,8 +60,13 @@ googleAnalytics = "G-KC2HQD94PF"
   url = "contact/"
 
   [[params.navlinks]]
-  name = "Description"
+  name = "About Sing"
   url = "about/"
+
+  [[params.navlinks]]
+  name = "Artworld digested"
+  url = "artnews/"
+
 
   # [[params.navlinks]]
   # name = "writings"
