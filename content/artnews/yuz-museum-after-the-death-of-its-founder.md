@@ -1,7 +1,7 @@
 ---
 title: "收藏家之死"
 date: 2022-03-21T23:33:53+08:00
-draft: true
+draft: false
 tags: [""]
 locations: ["香港","美國"]
 ---
