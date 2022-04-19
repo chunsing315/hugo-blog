@@ -1,5 +1,5 @@
 ---
-title: "Inside the White Cube: The Ideology of the Gallery Space by Brian O'Doherty"
+title: "Inside the White Cube: The Ideology of the Gallery Space by Brian O'Doherty, chapter one"
 date: 2022-04-06T23:39:51+08:00
 draft: false
 authors: ""

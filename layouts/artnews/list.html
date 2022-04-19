@@ -10,17 +10,20 @@
     
     <!-- All titles in button form  -->
       {{ range .Pages }}
-      <li style="list-style-type: none; text-align: left; padding-left:20%" >
-        <a class="btn btn-ghost" href="{{ .Permalink }}" role="button">{{ .Title }}</a>
+      <li style="list-style-type: none; text-align: left; padding-left:0%" >
+        <a class="btn btn-ghost" href="{{ .Permalink }}" role="button">{{ .Title }}</a><br><br>
       </li>
       {{end}}
-<!--     
+      <br>
+      <hr>
+      <br>
+
       <h2>
         #️⃣
         {{ range .Site.Taxonomies.tags }}
         <a id="allTags" class="btn btn-ghost" href="{{ .Page.Permalink }}" role="button">{{ .Page.Title }} ({{ .Count }})</a> 
         {{ end }}
-      </h2>  -->
+      </h2> 
       
       <!-- <h2>
         The most popular tags
